@@ -285,13 +285,142 @@ Para impressoras. Muito usado para dar uma versão de impressão ao site. */
 
 A expressão determina em que situação este bloco será utlizado*/
 @media screen and (min-width: 320px){
-
+    /* Código aqui */
 }
 
+/* ============= MOBILE FIRST ============= */
 
+/* Irá ajusar do mobile para os tamanhos maiores,
+alterando apenas o que se achar necessário para
+melhorar o site! */
 
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 480px){
+    .logo{
+        width: 214px;
+        background: url(../img/logo.png) center center/214px no-repeat;
+    }
 
+    .btn{
+        font-size: 2em;
+    }
+}
 
+/* SMALL DEVICES - TABLETS */
+@media screen and (min-width: 768px){
+    .servico{
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+    }
+
+    .servico:nth-child(2){
+        margin-right: 0;
+    }
+
+    .newsletter h2{
+        font-size: 2em;
+    }
+
+    .newsletter h3{
+        font-size: 1.5em;
+    }
+
+    .newsletter input{
+        width: 70%;
+        padding: 2%;
+        float: left;
+        margin-right: 1%;
+    }
+
+    .newsletter button{
+        width: 29%;
+        padding: 2%;
+        float: right;
+        margin-top: 0;
+    }
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 960px){
+    .title{
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+
+    .title h2{
+        font-size: 3em;
+    }
+
+    .title h3{
+        font-size: 2em;
+    }
+
+    .buttons{
+        width: 30%;
+        float: right;
+        margin-top: 0;
+    }
+
+    .servico{
+        width: 32%;
+    }
+
+    .servico:nth-child(2){
+        margin-right: 2%;
+    }
+    .servico:nth-child(3){
+        margin-right: 0;
+    }
+
+    .newsletter input{
+        width: 60%;
+        float: none;        
+    }
+
+    .newsletter button{
+        width: 20%;
+        float: none;        
+    }
+}
+
+/* LARGE DEVICES - WIDE SCREENS*/
+@media screen and (min-width: 1280px){
+    .btn-menu{
+        display: none;
+    }
+
+    .btn-close{
+        display: none;
+    }
+
+    .menu{
+        width: auto;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        background-color: #F5F5F5;
+        display: block !important; /* Important usado para o menu não desaparecer em alguns navegadores */
+        position: static;
+    }
+
+    .menu li{
+        padding: 0;
+        float: left;
+    }
+
+    .menu li a{
+        color: #130400;
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    .menu li a:hover{
+        border: none;
+        color: #DA6709;
+    }
+}
 
 
 
