@@ -34,10 +34,24 @@ img{
     padding: 3% 4%;
 }
 
-/* ========== Background Gradient ========== */
+/* ========== Background color ========== */
 .bg-gradient{
     background: linear-gradient(to right, #CE2E3C, #DA6709);
 }
+
+.bg-black{
+    background-color: #130400;
+}
+
+.bg-white{
+    background-color: #FFF;
+}
+
+/* ========== Helpers ========== */
+.radius{
+    border-radius: 7px;
+}
+
 
 /* Cabeçalho */
 /* .cabecalho{
@@ -116,7 +130,7 @@ img{
     font-weight: 700;
 }
 
-.titl h3{
+.title h3{
     font-size: 1.5em;
     color: #FFF;
 }
@@ -136,16 +150,13 @@ img{
     text-align: left;
     cursor: pointer;
     padding: 5%;
-    border-radius: 10px;
 }
 
 .btn-cadastrar{
-    background-color: #FFF;
     color: #130400;
 }
 
 .btn-sobre{
-    background-color: #130400;
     color: #FFF;
     margin-top: 2%;
 }
@@ -157,9 +168,7 @@ img{
 
 .servico{
     width: 100%;
-    background-color: #FFF;
     text-align: left;
-    border-radius: 7px;
     margin-bottom: 3%;
 }
 
@@ -190,9 +199,9 @@ img{
 }
 
 /* Newsletter */
-.newsletter{
-    background-color: #130400;
-}
+/* .newsletter{
+    Substituida pelo uso de .bg-balck e .container
+} */
 
 .newsletter h2 {
     font-size: 1.5em;
@@ -210,17 +219,14 @@ img{
 
 .newsletter input {
     width: 100%;
-    background-color: #130400;
     color: #FFF;
     border: 1px solid rgba(255, 255, 255, .3);
     padding: 5%;
-    border-radius: 5px;
 }
  .newsletter button{
      width: 100%;
      color:#130400;
      padding: 5%;
-     border-radius: 5px;
      cursor: pointer;
      margin-top: 2%;
 }
@@ -252,10 +258,35 @@ img{
     margin-top:2%;
 }
 
+/* MEDIA TYPES
 
+screen
+Para monitores e dispositivos de tela colorida e resolução adequada.
 
+print
+Para impressoras. Muito usado para dar uma versão de impressão ao site. */
 
+/* Uso do media type print */
+@media print{
 
+    .title h2{
+        font-size: 2.5em;
+        color: rgb(255, 5, 5);
+        font-weight: 700;
+    }
+    
+    .title h3{
+        font-size: 1.5em;
+        color: rgb(2, 27, 250);
+    }
+}
+
+/* Media query = media type + expressão ()
+
+A expressão determina em que situação este bloco será utlizado*/
+@media screen and (min-width: 320px){
+
+}
 
 
 
