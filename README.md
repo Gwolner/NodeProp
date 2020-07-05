@@ -12,7 +12,24 @@
 
 ## Menu mobile
 
+Importanto o [JQuery](https://code.jquery.com/).
+```html
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+```
+
+Foram usados os métodos `show()` e `hide()` para o menu mobile.
+```html
+<script>
+  $(".btn-menu").click(function () {
+    $(".menu").show(); //Exibe os itens do menu.
+  });
+  
+  $(".btn-close").click(function () {
+    $(".menu").hide(); //Oculta os itens.
+  });
+</script>
+```
 
 ## Agradecimento
 
-À [Lily Design]() pela confecção do mockup expositivo utilizado no início deste documento.
+À [Lily Design]() pela confecção do mockup utilizado no início deste documento.
