@@ -7,7 +7,7 @@
 </p>
 
 <p align="center"> <!-- Não funciona no escopo acima, por isso tem seu próprio  -->
-  Front de uma agencia especializada em marketing digital, criação de sites e aplicativos mobile.
+  Mockup obtido em <a href="https://br.freepik.com/">Freepik</a>
 </p>
 
 ## Menu mobile
@@ -32,4 +32,4 @@ Foram usados os métodos `show()` e `hide()` para o menu mobile.
 
 ## Agradecimento
 
-À [Lily Design]() pela confecção do mockup utilizado no início deste documento.
+À [Lily Design]() pela manipulação das telas responsivas no mockup obtido da [Freepik](https://br.freepik.com).
