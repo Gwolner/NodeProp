@@ -29,7 +29,3 @@ Foram usados os métodos `show()` e `hide()` para o menu mobile.
   });
 </script>
 ```
-
-## Agradecimento
-
-À [Lily Design]() pela manipulação das telas responsivas no mockup obtido da [Freepik](https://br.freepik.com).
